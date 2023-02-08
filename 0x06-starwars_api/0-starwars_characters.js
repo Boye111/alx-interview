@@ -9,8 +9,8 @@ const url = `https://swapi-api.hbtn.io/api/films/${movieId}`;
 request(url, async (err, res, body) => {
 	err && console.log(err);
 
-	const Arrayofcharacters = (JSON.parse(res.body).characters);
-	for (const character of Arrayofcharacters) {
+	const charactersArray = (JSON.parse(res.body).characters);
+	for (const character of charactersArray) {
 		await new Promise((resolve, reject) => {
 			request(character, (err, res, body) => {
 				err && console.log(err);
