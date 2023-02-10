@@ -1,0 +1,18 @@
+{
+  "name": "0x06-starwars_api",
+  "version": "1.0.0",
+  "description": "Write a script that prints all characters of a Star Wars movie:",
+  "main": "0-starwars_characters.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.51.0",
+    "@typescript-eslint/parser": "^5.51.0",
+    "eslint": "^8.33.0",
+    "eslint-plugin-react": "^7.32.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
